@@ -1,4 +1,6 @@
 # help-manager
+[![Build Status](https://travis-ci.org/parth67/help-manager.svg?branch=master)](https://travis-ci.org/parth67/help-manager)
+
 
 > An electron-vue project
 
