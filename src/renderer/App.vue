@@ -214,6 +214,7 @@
               alert(`failed to save file ${tableData.filePath}`)
             }
           })
+          alert('save operation done.')
         } else {
           alert('Duplicate Keys found. Resolve key conflict.')
         }
