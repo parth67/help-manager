@@ -31,6 +31,10 @@ function createWindow () {
   mainWindow.on('closed', () => {
     mainWindow = null
   })
+
+  mainWindow.webContents.on('will-navigate', ev => {
+    ev.preventDefault()
+  })
 }
 
 app.on('ready', createWindow)
